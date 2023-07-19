@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdfdfd;
+}
+
+#container {
+  background-image: url("../images/breaking-limit-hour-glass.gif");
+  background-size: cover;
+  vertical-align: middle;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 95%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  position: fixed;
+  left: 2%;
+}
+
+#frame {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: rgba(172, 231, 183, 0.6);
+  width: 60%;
+  height: 60%;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+h1 {
+  margin-top: 3%;
+  font-size: 5vw;
+  color: rgb(181, 55, 55);
+  text-shadow: 10px 3px 5px #fdfdfd;
+}
+
+input {
+  width: 70%;
+  height: 10%;
+  display: flex;
+  margin: 20px 10px;
+  font-size: 2vw;
+  border-radius: 10px;
+  margin-left: 50%;
+  top: 20%;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  line-height: 36px;
+  width: 20%;
+  height: 10%;
+  display: flex;
+  margin: 40px 10px;
+  font-size: 2vw;
+  border-radius: 10px;
+  margin-left: 50%;
+  top: 20%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+button2 {
+  transform: translateY(-150%);
+}
